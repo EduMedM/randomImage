@@ -1,0 +1,10 @@
+canvas{
+    border: 4px solid black;
+}
+
+button{
+    padding: 15px;
+    width: 400px;
+    height: 80px;
+    font-size: 2em;
+}
