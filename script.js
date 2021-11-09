@@ -14,14 +14,14 @@ window.onload = function()
     {
         var canvas = document.getElementById('canvas');
         var ctx = canvas.getContext('2d');
-        canvas.width = 1024;
-        canvas.height = 1024;
+        canvas.width = 700;
+        canvas.height = 700;
 
-        ctx.drawImage(background, 0, 0);
-        ctx.drawImage(clothes, 0, 0);
-        ctx.drawImage(skull, 0, 0);
-        ctx.drawImage(glasses, 0, 0);
-        ctx.drawImage(thing, 0, 0);
+        ctx.drawImage(background, 0, 0, 700, 700);
+        ctx.drawImage(clothes, 0, 0, 700, 700);
+        ctx.drawImage(skull, 0, 0, 700, 700);
+        ctx.drawImage(glasses, 0, 0, 700, 700);
+        ctx.drawImage(thing, 0, 0, 700, 700);
     }
     
     background = getSrcName("background");
